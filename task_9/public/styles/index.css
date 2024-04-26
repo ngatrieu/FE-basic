@@ -1,0 +1,362 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header{
+    background: url("../images/rectangle-3.png") lightgray 50% / cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header>p{
+    color: #000;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.header>img{
+    width: 86px;
+    height: 72px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu p{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+/* About Us */
+.about-us{
+    width: 100vw;
+    height: 66vh;
+    font-family: "Kaisei Decol";
+    color: #FFF;
+    display: flex;
+    margin: 36px 0px 36px 0px;
+}
+
+.image{
+    flex-basis: 45%;
+    background: url("../images/rectangle-4.png") lightgray 50% / cover no-repeat;
+}
+
+.about-us_desc{
+    flex-basis: 55%;
+    background: #9CAB70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 58px 139px 207px;
+}
+
+.about-us_desc h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.about-us_desc p{
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-top: 27px;
+}
+
+/* Product */
+.product-section{
+    background: #EEE;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-section h1{
+    color: #000;
+    font-family: "Kaisei Decol";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 94px;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.product{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-image{
+    width: 195px;
+    height: 190px;
+    border-radius: 195px;
+}
+
+.product:nth-child(1) .product-image{
+    background: url("../images/ellipse-1.png") lightgray 50% / cover no-repeat;
+}
+
+.product:nth-child(2) .product-image{
+    background: url("../images/ellipse-2.png") lightgray 50% / cover no-repeat;
+}
+
+.product:nth-child(3) .product-image{
+    background: url("../images/ellipse-3.png") lightgray 50% / cover no-repeat;
+}
+
+.product:nth-child(4) .product-image{
+    background: url("../images/ellipse-4.png") lightgray 50% / cover no-repeat;
+}
+
+.product h3{
+    color: #000;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.product p{
+    color: #000;
+    text-align: center;
+    font-family: "Kaisei Decol";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+/* Discount */
+.discount-section{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 0px 36px 0px;
+}
+
+.discount-image{
+    flex-basis: 29%;
+    background: url("../images/rectangle-8.png") lightgray 50% / cover no-repeat;
+    margin-left: 10px;
+}
+
+.discount-detail{
+    background: #9CAB70;
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.discount-detail p:nth-child(1){
+    color: #FFF;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.discount-detail p:nth-child(2){
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    width: 654px;
+    height: 103px;
+
+}
+
+.discount-detail button{
+    border-radius: 20px;
+    border: 2px solid #68763F;
+    background: rgba(255, 255, 255, 0.80);
+    width: 227px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #383F26;
+    text-align: center;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+/* Contact */
+.contact-section{
+    background: url("../images/rectangle-10.png") lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.contact{
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    gap: 30px;
+}
+
+.contact p{
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 25px 0px 15px 0px;
+}
+
+#name{
+    border-radius: 15px;
+    border: 4px solid #9CAB70;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 85%;
+    height: 56px;
+}
+
+#email{
+    border-radius: 15px;
+    border: 4px solid #9CAB70;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 85%;
+    height: 56px;
+}
+
+#message{
+    width: 85%;
+    height: 135px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 4px solid #9CAB70;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-send{
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+
+button{
+    width: 153px;
+    height: 52px;
+    border-radius: 15px;
+    border: 4px solid #9CAB70;
+    background: #68763F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Footer */
+.footer{
+    width: 100vw;
+    height: 33vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    gap: 15px;
+}
+
+.footer-logo>p{
+    color: #000;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.footer-logo>img{
+    width: 86px;
+    height: 72px;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-menu p{
+    color: #9CAB70;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}

@@ -1,0 +1,285 @@
+/* *********************************************** */
+/* *********************************************** */
+                /*Ipad dọc(768 x 1024)*/
+/* *********************************************** */
+@media screen and (max-width: 768px){
+     /* About Us */
+     .about-us{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .about-us_desc{
+        padding: 0;
+    }
+
+    /* Product */
+    .product-section{
+        height: 160vh;
+    }
+    .product-section h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .product-list{
+        flex-direction: column;
+    }
+
+    .product{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    /*  Discount  */
+    .discount-section{
+        margin: 0;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .discount-detail p:nth-child(1){
+        width: 60%;
+    }
+    .discount-detail p:nth-child(2){
+        width: 80%;
+    }
+
+    /* Contact */
+    .contact-section{
+        height: 50vh;
+    }
+
+    .contact{
+        width: 80%;
+        gap: 10px;
+    }
+
+    #message{
+        height: 20%;
+    }
+
+    button{
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+/* *********************************************** */
+/* *********************************************** */
+                /*Tablet nhỏ(480 x 640)*/
+/* *********************************************** */                
+@media screen and (max-width: 480px){
+    /* Header */
+    .menu{
+        flex-direction: column;
+        padding-right: 50vw;
+    }
+
+    .menu p{
+        font-size: 20px;
+    }
+
+    /* About Us */
+    .about-us{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .about-us_desc{
+        padding: 0;
+    }
+
+    .about-us_desc p{
+        font-size: 20px;
+    }
+
+    /* Product */
+    .product-section{
+        height: 250vh;
+    }
+    .product-section h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .product-list{
+        flex-direction: column;
+    }
+
+    .product{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .product h3{
+        font-size: 20px;
+    }
+
+    .product p{
+        font-size: 14px;
+    }
+
+    /*  Discount  */
+    .discount-section{
+        margin: 0;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .discount-detail p:nth-child(1){
+        font-size: 48px;
+        width: 60%;
+    }
+    .discount-detail p:nth-child(2){
+        width: 80%;
+        font-size: 20px;
+    }
+
+    /* Contact */
+    .contact-section{
+        height: 50vh;
+    }
+
+    .contact{
+        width: 80%;
+        gap: 10px;
+    }
+
+    .contact p{
+        font-size: 24px;
+        padding-top: 10px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    #message{
+        height: 20%;
+    }
+
+    button{
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    /* Footer */
+    .footer-menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-menu p{
+        font-size: 20px;
+    }
+}
+
+/* *********************************************** */
+/* *********************************************** */
+                /*Iphone(320 x 568)*/
+/* *********************************************** */
+@media screen and (max-width: 320px){
+    /* Header */
+    .menu{
+        flex-direction: column;
+        padding-right: 50vw;
+    }
+
+    .menu p{
+        font-size: 20px;
+    }
+
+    /* About Us */
+    .about-us{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .about-us_desc{
+        padding: 0;
+    }
+
+    .about-us_desc p{
+        font-size: 20px;
+    }
+
+    /* Product */
+    .product-section{
+        height: 300vh;
+    }
+    .product-section h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .product-list{
+        flex-direction: column;
+    }
+
+    .product{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .product h3{
+        font-size: 20px;
+    }
+
+    .product p{
+        font-size: 14px;
+    }
+
+    /*  Discount  */
+    .discount-section{
+        margin: 0;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .discount-detail p:nth-child(1){
+        font-size: 48px;
+    }
+    .discount-detail p:nth-child(2){
+        width: 80%;
+        font-size: 20px;
+    }
+
+    /* Contact */
+    .contact-section{
+        height: 50vh;
+    }
+
+    .contact{
+        width: 80%;
+        gap: 10px;
+    }
+
+    .contact p{
+        font-size: 24px;
+        padding-top: 10px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    #message{
+        height: 20%;
+    }
+
+    button{
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+    }
+
+    /* Footer */
+    .footer-menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-menu p{
+        font-size: 20px;
+    }
+}
+
+/* *********************************************** */
+/* *********************************************** */
+                /*Ipad ngang(1024 x 768)*/
+/* *********************************************** */
