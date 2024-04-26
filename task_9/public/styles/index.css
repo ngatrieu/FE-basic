@@ -168,7 +168,6 @@
 /* Discount */
 .discount-section{
     width: 100vw;
-    height: 50vh;
     display: flex;
     justify-content: space-between;
     margin: 36px 0px 36px 0px;
@@ -187,6 +186,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 15px
 }
 
 .discount-detail p:nth-child(1){
