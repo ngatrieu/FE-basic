@@ -8,7 +8,7 @@
     background: url("../images/rectangle-3.png") lightgray 50% / cover no-repeat;
     width: 100vw;
     height: 100vh;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,11 +92,10 @@
 /* Product */
 .product-section{
     background: #EEE;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 32px;
 }
 
 .product-section h1{
@@ -317,7 +316,7 @@ button{
 .footer{
     width: 100vw;
     height: 33vh;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
