@@ -1,0 +1,32 @@
+$font-family-1: "Nunito Sans";
+$font-family-2: Poppins;
+
+$paddingLR-header: 0px;
+
+
+@mixin font-1{
+    font-family: $font-family-1;
+    font-style: normal;
+    line-height: normal;
+}
+@mixin text-style-14{
+    @include font-1;
+    font-size: 14px;
+}
+
+@mixin text-style-15{
+    @include font-1;
+    font-size: 15px;
+}
+@mixin text-style-16{
+    @include font-1;
+    font-size: 16px;
+}
+@mixin text-style-18{
+    @include font-1;
+    font-size: 18px;
+}
+@mixin text-style-22{
+    @include font-1;
+    font-size: 22px;
+}
