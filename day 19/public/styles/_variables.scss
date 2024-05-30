@@ -27,7 +27,12 @@ $font-family-2: Poppins;
     padding: $padding;
 }
 
-@mixin hover-button(){
+@mixin place-center{
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin hover-button{
     background: linear-gradient(to left, #FF5A3D 50%, white 50%);
     background-size: 200% 100%;
     background-position:right top;
@@ -40,10 +45,49 @@ $font-family-2: Poppins;
     }
 }
 
-@mixin hover-link(){
+@mixin hover-button-1{
+    background: linear-gradient(to left,white 50%,  black 50%);
+    background-size: 200% 100%;
+    background-position:right top;
+    transition: all 1s ease;
+
+    &:hover{
+        background-position:left top;
+        color: white;
+        border-color: white;
+    }
+}
+
+@mixin hover-link{
     transition: color 0.3s ease;
 
     &:hover{
         color: #FF5A3D;
+    }
+}
+
+@mixin hover-image-link{
+    position: relative;
+    aspect-ratio: 2 / 1.5;
+    overflow: hidden;
+
+    & a {
+        &:hover img{
+            object-fit: cover;
+            transition:  0.5s ease;
+            height: 103%;
+        }
+    }
+}
+
+@mixin hover-link-card{
+    transition: all 0.3s ease;
+
+    &:hover{
+        background: #FF5A3D;
+
+        & p or & span or & address{
+            color: white;
+        }
     }
 }

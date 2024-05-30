@@ -209,6 +209,68 @@
             padding: 0;
         }
     }
+
+    /*  -------------------- News Feeds  -------------------- */
+    /* ************************************************** */
+
+    #new-feeds .container {
+        .feeds-title{
+            @include text-style-2(30px,55px,700);
+        }
+        .feeds-content{
+            flex-wrap: wrap;
+            .feeds-item{
+                flex-basis: 95%;
+
+                .feeds-item-title{
+                    @include text-style-2(18px,28px,600);
+                }
+            }
+
+        }
+    }
+
+    /*  -------------------- Footer  -------------------- */
+    /* ************************************************** */
+
+    .cta{ 
+        .cta-card{
+            width: 60%;
+            flex-direction: column;
+            gap: 25px;
+
+            .cta-text{
+                align-items: center;
+                gap: 20px;
+
+                & p:first-child{
+                    @include text-style-2(24px, 30px, 700);
+                }
+            }
+            & button{
+                padding: 10px 30px;
+                @include text-style-2(12px, normal, 400);
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            width: 80%;
+            flex-direction: column;
+            gap: 80px;
+
+            .footer-link-box{
+                width: 90%;
+                gap: 30px;
+                flex-direction: column;
+            }
+        }
+
+        .copyright{
+            padding-bottom: 20%;
+        }
+    }
 }
 
 @media screen and (min-width: 356px) and (max-width: 573px){
@@ -391,6 +453,58 @@
         }
     }
 
+    /*  -------------------- News Feeds  -------------------- */
+    /* ************************************************** */
+
+    #new-feeds .container {
+        .feeds-title{
+            @include text-style-2(32px,55px,700);
+        }
+        .feeds-content{
+            flex-wrap: wrap;
+            .feeds-item{
+                flex-basis: 90%;
+            }
+        }
+    }
+
+    /*  -------------------- Footer  -------------------- */
+    /* ************************************************** */
+
+    .cta{ 
+        .cta-card{
+            width: 70%;
+            flex-direction: column;
+            gap: 25px;
+
+            .cta-text{
+                align-items: center;
+                gap: 20px;
+
+                & p:first-child{
+                    @include text-style-2(24px, 45px, 700);
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            width: 80%;
+            flex-direction: column;
+            gap: 80px;
+
+            .footer-link-box{
+                width: 90%;
+                gap: 30px;
+                flex-direction: column;
+            }
+        }
+
+        .copyright{
+            padding-bottom: 16%;
+        }
+    }
 }
 
 @media screen and (min-width: 573px) and (max-width: 768px){
@@ -568,7 +682,53 @@
     /*  -------------------- Building Amenities  -------------------- */
     /* ************************************************** */
 
+    /*  -------------------- New Feeds  -------------------- */
+    /* ************************************************** */
 
+    #new-feeds .container .feeds-content{
+        flex-wrap: wrap;
+        .feeds-item{
+            flex-basis: 80%;
+        }
+    }
+
+    /*  -------------------- Footer  -------------------- */
+    /* ************************************************** */
+
+    .cta{ 
+        .cta-card{
+            width: 70%;
+            flex-direction: column;
+            gap: 25px;
+
+            .cta-text{
+                align-items: center;
+                gap: 20px;
+
+                & p:first-child{
+                    @include text-style-2(28px, 45px, 700);
+                }
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            width: 80%;
+            flex-direction: column;
+            gap: 80px;
+
+            .footer-link-box{
+                width: 90%;
+                gap: 30px;
+                justify-content: space-between;
+            }
+        }
+
+        .copyright{
+            padding-bottom: 12%;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 993px){
@@ -669,7 +829,46 @@
     /*  -------------------- Building Amenities  -------------------- */
     /* ************************************************** */
 
+    /*  -------------------- News Feeds  -------------------- */
+    /* ************************************************** */
 
+    #new-feeds .container .feeds-content{
+        flex-wrap: wrap;
+        .feeds-item{
+            flex-basis: 45%;
+        }
+    }
+
+    /*  -------------------- Footer  -------------------- */
+    /* ************************************************** */
+
+    .cta{ 
+        .cta-card{
+            width: 80%;
+            flex-direction: column;
+            gap: 25px;
+
+            .cta-text{
+                align-items: center;
+                gap: 20px;
+            }
+        }
+    }
+
+    .footer{
+        .container{
+            width: 90%;
+            flex-direction: column;
+            gap: 80px;
+
+            .footer-link-box{
+                width: 90%;
+                gap: 30px;
+                justify-content: space-between;
+            }
+        }
+        
+    }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1180px){
@@ -748,5 +947,28 @@
     /*  -------------------- Building Amenities  -------------------- */
     /* ************************************************** */
 
+    /*  -------------------- News Feeds  -------------------- */
+    /* ************************************************** */
 
+    #new-feeds .container .feeds-content{
+        flex-wrap: wrap;
+        .feeds-item{
+            flex-basis: 45%;
+        }
+    }
+
+    /*  -------------------- Footer  -------------------- */
+    /* ************************************************** */
+
+    .cta{ 
+        .cta-card{
+            width: 80%;
+        }
+    }
+
+    .footer{
+        .container{
+            width: 90%;
+        }
+    }
 }

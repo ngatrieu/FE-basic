@@ -44,6 +44,7 @@ body{
         display: flex;
         gap: 3px;
         text-decoration: none;
+        @include hover-link-card;
 
         .img{
             width: 15px;

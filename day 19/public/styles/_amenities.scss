@@ -38,7 +38,6 @@
             flex-wrap: wrap;
             width: 100%;
             justify-content: center;
-            // gap: 20px;
 
             .amenity-item{
                 margin: 25px 15px;
@@ -55,6 +54,7 @@
                 background: #FFF;
                 box-shadow: 0px 5px 20px 0px rgba(24, 45, 84, 0.10);
                 
+                @include hover-link-card;
 
                 .amenity-card-icon{
                     display: flex;
@@ -87,7 +87,6 @@
                     display: flex;
                     width: 40px;
                     height: 40px;
-                    // padding: 10px;
                     justify-content: center;
                     align-items: center;
                     border-radius: 50%;

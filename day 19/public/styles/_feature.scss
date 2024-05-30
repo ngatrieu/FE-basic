@@ -1,5 +1,5 @@
 #features{
-    padding: 100px 0;;
+    padding: 100px 0;
     .container{
         display: flex;
         flex-direction: column;
@@ -36,7 +36,7 @@
             align-items: flex-start;
             gap: 25px;
             padding-bottom: 60px;
-            scroll-snap-type: inline mandatory;
+            // scroll-snap-type: inline mandatory;
 
             .feature-item{
                 display: flex;
@@ -52,18 +52,10 @@
                 .feature-item-image{
                     margin: 0;
                     display: flex;
-                    position: relative;
-                    aspect-ratio: 2 / 1.5;
-                    overflow: hidden;
+                    @include hover-image-link;
 
-                    & a {
+                    & a{
                         text-decoration: none;
-
-                        &:hover img{
-                            object-fit: cover;
-                            transition:  0.5s ease;
-                            height: 103%;
-                        }
 
                         & img{
                             width: 100%;

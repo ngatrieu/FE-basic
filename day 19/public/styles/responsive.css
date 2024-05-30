@@ -199,6 +199,67 @@
     font-weight: 700;
     padding: 0;
   }
+  /*  -------------------- News Feeds  -------------------- */
+  /* ************************************************** */
+  #new-feeds .container .feeds-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: 700;
+  }
+  #new-feeds .container .feeds-content {
+    flex-wrap: wrap;
+  }
+  #new-feeds .container .feeds-content .feeds-item {
+    flex-basis: 95%;
+  }
+  #new-feeds .container .feeds-content .feeds-item .feeds-item-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+  /*  -------------------- Footer  -------------------- */
+  /* ************************************************** */
+  .cta .cta-card {
+    width: 60%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .cta .cta-card .cta-text {
+    align-items: center;
+    gap: 20px;
+  }
+  .cta .cta-card .cta-text p:first-child {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  .cta .cta-card button {
+    padding: 10px 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+  }
+  .footer .container {
+    width: 80%;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer .container .footer-link-box {
+    width: 90%;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .footer .copyright {
+    padding-bottom: 20%;
+  }
 }
 @media screen and (min-width: 356px) and (max-width: 573px) {
   /*  -------------------- Header  -------------------- */
@@ -364,6 +425,52 @@
     font-weight: 700;
     padding: 0;
   }
+  /*  -------------------- News Feeds  -------------------- */
+  /* ************************************************** */
+  #new-feeds .container .feeds-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 55px;
+    font-weight: 700;
+  }
+  #new-feeds .container .feeds-content {
+    flex-wrap: wrap;
+  }
+  #new-feeds .container .feeds-content .feeds-item {
+    flex-basis: 90%;
+  }
+  /*  -------------------- Footer  -------------------- */
+  /* ************************************************** */
+  .cta .cta-card {
+    width: 70%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .cta .cta-card .cta-text {
+    align-items: center;
+    gap: 20px;
+  }
+  .cta .cta-card .cta-text p:first-child {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .footer .container {
+    width: 80%;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer .container .footer-link-box {
+    width: 90%;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .footer .copyright {
+    padding-bottom: 16%;
+  }
 }
 @media screen and (min-width: 573px) and (max-width: 768px) {
   /*  -------------------- Header  -------------------- */
@@ -521,6 +628,45 @@
   }
   /*  -------------------- Building Amenities  -------------------- */
   /* ************************************************** */
+  /*  -------------------- New Feeds  -------------------- */
+  /* ************************************************** */
+  #new-feeds .container .feeds-content {
+    flex-wrap: wrap;
+  }
+  #new-feeds .container .feeds-content .feeds-item {
+    flex-basis: 80%;
+  }
+  /*  -------------------- Footer  -------------------- */
+  /* ************************************************** */
+  .cta .cta-card {
+    width: 70%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .cta .cta-card .cta-text {
+    align-items: center;
+    gap: 20px;
+  }
+  .cta .cta-card .cta-text p:first-child {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .footer .container {
+    width: 80%;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer .container .footer-link-box {
+    width: 90%;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  .footer .copyright {
+    padding-bottom: 12%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 993px) {
   /*  -------------------- Header  -------------------- */
@@ -609,6 +755,35 @@
   }
   /*  -------------------- Building Amenities  -------------------- */
   /* ************************************************** */
+  /*  -------------------- News Feeds  -------------------- */
+  /* ************************************************** */
+  #new-feeds .container .feeds-content {
+    flex-wrap: wrap;
+  }
+  #new-feeds .container .feeds-content .feeds-item {
+    flex-basis: 45%;
+  }
+  /*  -------------------- Footer  -------------------- */
+  /* ************************************************** */
+  .cta .cta-card {
+    width: 80%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .cta .cta-card .cta-text {
+    align-items: center;
+    gap: 20px;
+  }
+  .footer .container {
+    width: 90%;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer .container .footer-link-box {
+    width: 90%;
+    gap: 30px;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 993px) and (max-width: 1180px) {
   /*  -------------------- Header --------------------  */
@@ -671,4 +846,20 @@
   }
   /*  -------------------- Building Amenities  -------------------- */
   /* ************************************************** */
+  /*  -------------------- News Feeds  -------------------- */
+  /* ************************************************** */
+  #new-feeds .container .feeds-content {
+    flex-wrap: wrap;
+  }
+  #new-feeds .container .feeds-content .feeds-item {
+    flex-basis: 45%;
+  }
+  /*  -------------------- Footer  -------------------- */
+  /* ************************************************** */
+  .cta .cta-card {
+    width: 80%;
+  }
+  .footer .container {
+    width: 90%;
+  }
 }/*# sourceMappingURL=responsive.css.map */
